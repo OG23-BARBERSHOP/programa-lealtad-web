@@ -1,5 +1,6 @@
 import React, { useState } from 'react'; // Importa React y el hook useState
-import { Award, Gift, Star, DollarSign, Percent, Package, ShoppingBag, CreditCard, Cigarette, Flame, Tag, VenetianMask, Droplet, Scissors, Home, Info, Trophy, MoreVertical } from 'lucide-react'; // Importa los iconos necesarios de Lucide
+// Se han eliminado los iconos que no se utilizan para evitar errores de compilación
+import { Gift, Tag, Flame, Cigarette, VenetianMask, Droplet, Scissors, Home, Info, Trophy, MoreVertical } from 'lucide-react'; // Importa solo los iconos necesarios de Lucide
 
 // Componente para el icono personalizado del secador de pelo (HairDryerIcon)
 const HairDryerIcon = ({ size = 24, className = "text-blue-400" }) => (
@@ -691,9 +692,8 @@ const App = () => {
                       <h4 className="ml-4 text-lg font-semibold text-gray-800 leading-tight">{reward.name}</h4> {/* Added leading-tight */}
                     </div>
                     <p className="text-gray-600 text-sm mb-1">{reward.cost}</p> {/* Adjusted margin-bottom */}
-                    {/* Only show description if it's concise and fits the capsule design */}
                     {reward.description && (
-                      <p className="text-gray-500 text-xs mt-1 break-words"> {/* Removed max-w-xs, overflow-hidden, text-ellipsis, whitespace-nowrap and added break-words */}
+                      <p className="text-gray-500 text-xs mt-1 break-words">
                         {reward.description}
                       </p>
                     )}
