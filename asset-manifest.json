@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/programa-lealtad-web/static/css/main.76888953.css",
+    "main.js": "/programa-lealtad-web/static/js/main.3c20673a.js",
+    "static/js/453.13d27d62.chunk.js": "/programa-lealtad-web/static/js/453.13d27d62.chunk.js",
+    "index.html": "/programa-lealtad-web/index.html",
+    "main.76888953.css.map": "/programa-lealtad-web/static/css/main.76888953.css.map",
+    "main.3c20673a.js.map": "/programa-lealtad-web/static/js/main.3c20673a.js.map",
+    "453.13d27d62.chunk.js.map": "/programa-lealtad-web/static/js/453.13d27d62.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.76888953.css",
+    "static/js/main.3c20673a.js"
+  ]
+}
